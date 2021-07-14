@@ -45,6 +45,7 @@ p {
 .first-head:hover .button-div {
   animation: shake 0.8s;
 }
+
 /* end of transition */
 
 .button {
@@ -78,18 +79,15 @@ main {
   align-items: center;
   padding-bottom: 158px;
 }
-.first-sec {
-  width: 75%;
-}
 
 /* ------------------------
   FIRST SECTION START HERE
 -------------------------- */
-.first-sec {
+.container {
   background-color: #ffffff;
-  width: 75%;
 }
 .players {
+  padding: 0;
   padding-top: 70px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -145,9 +143,34 @@ footer {
   height: 32px;
   width: 32px;
 }
-/* ------------------------
-  FOOTERS END HERE
--------------------------- */
+
+/* SECOND SECTION */
+
+.news-heading h1 {
+  color: #e02c6d;
+}
+
+.allnews {
+  padding: 0;
+  padding-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  justify-items: center;
+}
+.news {
+  width: 50%;
+  height: auto;
+  margin: 50px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 30px gray;
+}
+.news-img {
+  height: 300px;
+  width: 400px;
+}
+
 /* ------------------------
  MEDIA QUERIES
 -------------------------- */
